@@ -26,7 +26,7 @@ export default defineConfig({
   reporter: [
       ['list'], // Console reporter
       ['html', { open: 'never' }], // HTML report
-      ['junit', { outputFile: 'test-results/results.xml' }] // JUnit XML report
+      ['junit', { outputFile: 'test-results/junit-report.xml' }] // JUnit XML report
     ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
